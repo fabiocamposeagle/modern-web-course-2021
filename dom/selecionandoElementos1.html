@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Selecionar Elementos #01</title>
+		<link rel="stylesheet" href="css/estilo.css" />
+	</head>
+	<body class="conteudo exercicio">
+		<div id="primeiro">#primeiro</div>
+		<div>Segundo</div>
+		<div class="terceiro ultimo">.terceiro .ultimo</div>
+		<script>
+			document.getElementById('primeiro').classList.add('destaque');
+			/* add o primeiro elemento em uma cor destacada(amarelo) que esta predefinido em css*/
+			const divs = document.getElementsByTagName('div');
+			Array.from(divs).forEach((e) => e.classList.remove('destaque'));
+			/* peguei os elementos divs transformei em uma array, vou 
+         percorrer cada um deles demovendo a classe destaque*/
+
+			const divsArray = [...divs];
+			/*Vou transforma uma html colection e uma array usa EXPRESS*/
+			divsArray.forEach((e) => e.classList.add('destaque'));
+
+			const ultimoElementos = document.getElementsByClassName('ultimo');
+			for (let e of ultimoElementos) {
+				e.classList.remove('destaque');
+			}
+		</script>
+	</body>
+</html>

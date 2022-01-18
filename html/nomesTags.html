@@ -1,0 +1,104 @@
+<!--
+<meta charset="utf-8"> significa o tipo de caracteres que vc que usar na sua pagina,
+o tipo de codificação o padrao mais usado utf-8
+<artigo> <article>
+<aside> <ao lado>
+<details><detalhes>
+<figcaption><figcaption>
+<figure>figura
+<footer>rodapé
+<header>cabeçalho
+<main>a Principal
+<mark>marca
+<nav> navegação
+<section> seção
+<summary>resumo
+<time>hora
+<body> do HTML representa o conteúdo de um documento HTML. 
+è permitido apenas um <body> por documento
+<h1> elemento visual 
+
+    <a href="/">Navegação 1</a> 
+href atributo o endereço que de fato aquele link vai apontar
+ <span id="TextoPrincipal">Texto 1</span>
+ - O id deve ser unico na pagina inteira
+
+ <span class >Texto 2</span>
+ - class é um identificador associado com o uso de estilo para que vc possa 
+ aplicar mais de uma classe dentro da sua pagina 
+
+<style>
+     h1 {
+            display: none; sumiu o titulo css;
+               background-color: red; cor de fundo
+                font-size: 20px; tamanho fonte
+        }
+</style>
+
+Aprendizado: 
+no console do navegação
+document.querySelector('fundoVermelho') 
+vai geral null nada (nao achou)
+- encontrar elementos que tem a classe fundoVermelho
+acrescenta a notação ponto .fundoVermelho ,
+document.querySelector('.fundoVermelho') retorna 
+<span class="fundoVermelho negrito">Texto 2</span>)
+NodeList(2) [span.fundovermelho.negrito, span.fundovermelho]
+0: span.fundovermelho.negrito
+1: span.fundovermelho
+length: 2
+__proto__: NodeList
+
+Aprendizado # o serquilha representa um ID
+
+ font-weight: bold; peso da fonte
+ margin-bottom: 50px;
+
+
+ document.querySelector('[wb-atrib]')
+ 
+
+ fetch(link.href) fiz uma chamada ajax
+    
+-.then(resp => resp.tex()) 
+resp.text aqui é uma funcao que serve para pegar o conteudo html
+da pagina que fiz uma requisição , so depois dessa chamada 
+que aqui tb vai retorna uma promisee que tenho um valor textual do html
+que foi carreada a parti dessa requisição e com esse valor textual
+eu posso jogar dentro de conteudo
+
+fetch(link.getAttribute('wm-nav'))/* fiz uma chamada ajax em cima do atributo href 
+que mim da o link da pagina */
+
+<a href="http://www.google.com.br" target="_blank"></a>
+target="_blank"> , estou dizendo que o alvo para abrir 
+esse link em uma aba em branco
+
+
+    .progresso > div {
+        background-color: red; /* cor  do progresso quando iniciar o play */
+        color: #fff; /* for de fundo */
+        height: 100%; /*  a cor da altura do progresso vai ficar 100% */
+        text-align: right; /* alinhar: a direita */
+        font-size: 14px; /*  tamanho da fonte */
+        width: 0%; /* largura */
+    }
+</style>
+
+Tags Semânticas...novos em HTML5
+
+section - agrupamento temático de contéudo
+article -(artigo tem uma semântica de auto-contido )
+header - cabeçalho 
+footer - rodapé do documento
+nav - agrupa os links de navegação 
+aside - de lado (ex. sidebar). 
+Uma observação no conteudo Relacionado com o conteudo em volta (adendo)
+details - exibe detalhes que pode ser exibidos ou escondidos.
+
+tags mais famosas e conhecidos
+
+div - divisão ou seção 
+span - usado para agrupar elementos inline 
+
+-->

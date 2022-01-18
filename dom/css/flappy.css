@@ -1,0 +1,66 @@
+* {
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: 'pixel';
+	src: url('../fonts/pixel.ttf');
+}
+
+[wm-flappy] {
+	position: relative;
+	border: 5px solid dodgerblue;
+	height: 700px;
+	width: 1200px;
+	margin: 15px;
+	background-color: deepskyblue;
+	overflow: hidden;
+	/*overflow: hidden - e funcao as barreiras 
+    que são os cantos vao esta trafegando por dentro da tela
+    ele vem de fora da div e sai da div  */
+}
+
+.passaro {
+	position: absolute;
+	width: 60px;
+	left: calc(50% - 30px);
+}
+
+.par-de-barreiras {
+	position: absolute;
+	top: 0; /*  vai esta alinhado com o topo do jogo */
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between; /* dá espeçamento vazio no meio  */
+}
+
+.barreira {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.barreira .borda {
+	height: 30px;
+	width: 130px;
+	background: linear-gradient(90deg, #639301, #a5e82e);
+	border: 2px solid #000;
+}
+
+.barreira .corpo {
+	height: 150px;
+	width: 110px;
+	background: linear-gradient(90deg, #639301, #a5e82e);
+	border-left: 2px solid #000;
+	border-right: 2px solid #000;
+}
+
+.progresso {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	font-family: pixel;
+	font-size: 70px;
+	z-index: 100;
+}
