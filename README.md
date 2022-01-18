@@ -19,3 +19,7 @@ https://user-images.githubusercontent.com/62512557/126099034-29cae4fb-1c7e-445c-
 # Projeto Vuejs
 
 https://user-images.githubusercontent.com/62512557/150031870-8c5d3322-4785-4c6b-8f7f-18fee3376f97.mp4
+
+# Project create QRCode
+
+https://user-images.githubusercontent.com/62512557/150033598-c579ff4b-fe66-4f8d-bfa2-248658734c8f.mp4
