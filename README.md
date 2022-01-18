@@ -12,11 +12,10 @@ I made a small game project in the DO folder
 - in the index.html file
 - Right-click Open With Live Server
 
-##Then in the last option Project Flappy BIrd
+# Then in the last option Project Flappy BIrd
 
 https://user-images.githubusercontent.com/62512557/126099034-29cae4fb-1c7e-445c-ac4f-0e9fc11c448e.mp4
 
-##Projeto Vuejs
+# Projeto Vuejs
 
-https://github.com/fabiocamposeagle/modern-web-course-2022/issues/2#issue-1107441664
-
+https://user-images.githubusercontent.com/62512557/150031870-8c5d3322-4785-4c6b-8f7f-18fee3376f97.mp4
